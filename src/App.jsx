@@ -3,12 +3,15 @@ import { motion } from "framer-motion";
 import { Gift, Star, RotateCcw, CheckCircle2 } from "lucide-react";
 
 // 👉 Remplace par ton vrai lien Google Avis
-const GOOGLE_REVIEW_URL = "https://g.page/r/CSmZgD1sU_qKEBM/review";
+const GOOGLE_REVIEW_URL = "https://g.page/r/CdyiErcU1TdSEBM/review";
 
 const prizes = [
-  { label: "🥤 Boisson offerte", probability: 60 },
-  { label: "🍰 Tiramisu offert", probability: 30 },
-  { label: "🍔 Cheeseburger offert", probability: 10 },
+  { label: "Boisson offerte", probability: 30 },
+  { label: "Frites offertes", probability: 25 },
+  { label: "Dessert offert", probability: 15 },
+  { label: "-10%", probability: 15 },
+  { label: "Menu offert", probability: 5 },
+  { label: "Retente demain", probability: 10 },
 ];
 
 function pickPrize() {
