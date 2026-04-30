@@ -129,14 +129,6 @@ export default function App() {
           <h2>🎉 Tu as gagné :</h2>
           <h1>{result.label}</h1>
 
-          <p>Code :</p>
-          <h2>RESTO-{Date.now().toString().slice(-5)}</h2>
-
-          <p>Montre ça à la caisse</p>
-
-          <button onClick={resetDemo}>
-            🔄 Rejouer (test)
-          </button>
         </div>
       )}
     </div>
